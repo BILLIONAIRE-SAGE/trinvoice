@@ -1,0 +1,38 @@
+#h3{
+    width: 452px;
+    height: 40px;
+    top: 4015px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+
+  .navbar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+
+  .subscribe-container button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #ff5a5f;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+  }
+
+  .subscribe-container button:hover {
+    background-color: #e0484f;
+  }
