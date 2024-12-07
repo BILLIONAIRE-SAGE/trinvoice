@@ -1,50 +1,165 @@
 /* Logo Styling */
 .logo img {
-    height: 50px; /* Adjust based on your logo size */
-    width: auto;
-  }
+height: 80px;
+gap: 0px;
+opacity: 0px;
+}
   
   /* Global Styles */
 body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
   
   /* Navbar Styles */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #FFFFFF;
-    color: #fff;
-    padding: 0.5rem 1rem;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  color: #fff;
+  padding: 0.5rem 1rem;
   }
   
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+.nav-links {
+list-style: none;
+display: flex;
+gap: 1rem;
+}
+  
+.nav-links li {
+display: inline;
+font-weight: 500;
+font-family: 'poppins';
+size: 20px;
   }
   
-  .nav-links li {
-    display: inline;
-    font-weight: 500;
-    font-family: 'poppins';
-    size: 20px;
-  }
+.nav-links a {
+text-decoration: none;
+color: #000000;
+transition: color 0.3s ease;
+}
   
-  .nav-links a {
-    text-decoration: none;
-    color: #000000;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    color: #f39c12;
-  }
+.nav-links a:hover {
+  color: #f39c12;
+}
   
 .button{
   background-color: #988FFC;
+}
+
+section div p{
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000;
+  
+}
+
+.sales{
+font-family: Poppins;
+font-size: 72px;
+font-weight: 600;
+line-height: 88px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #5D56D9;
+}
+
+.growth{
+color: #9691F2;
+font-family: Poppins;
+font-size: 72px;
+font-weight: 600;
+line-height: 88px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+.analytics{
+color: #000000B2;
+font-family: Poppins;
+font-size: 72px;
+font-weight: 600;
+line-height: 88px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+aside {
+  position: absolute;
+  top: 143px;
+  left: 623px;
+  opacity: 1; /* Set to 1 to make it visible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+aside img {
+  width: 761px;
+  height: 500px;
+  top: 143px;
+  left: 623px;
+  gap: 0px;
+  opacity: 0px;  
+}
+
+.background-image {
+  position: absolute;
+  width: 626.98px;
+  height: 679.2px;
+  top: 65.88px;
+  left: 912.66px;
+  background: #D9D9D91A; /* Semi-transparent background color */
+  transform: rotate(8deg); /* Applying rotation */
+  z-index: 1; 
+}
+
+.signup {
+  display: inline-block; /* Ensures the element wraps around its content */
+  padding: 7px 10px; /* Adjusted padding for consistent button spacing */
+  gap: 10px; /* Defines the space between children, if any */
+  border-radius: 4px 0px 0px 0px; /* Rounded corners */
+  opacity: 1; /* Ensures visibility */
+  background: #988FFC; /* Background color */
+  color: white; /* Text color */
+  font-family: 'Poppins', sans-serif; /* Font family */
+  font-size: 20px; /* Font size */
+  font-weight: 500; /* Font weight */
+  line-height: 30px; /* Line height */
+  text-align: center; /* Align text centrally */
+  text-decoration: none; /* Removes underline */
+  border: none; /* Removes any browser default border */
+  cursor: pointer; /* Adds a pointer cursor for interactivity */
+  box-sizing: border-box; /* Ensures padding and border are included in size */
+  width: 87px; /* Defined width */
+  height: 44px; /* Defined height */
+}
+
+.smallbis {
+width: 960px;
+height: 78px;
+top: 803px;
+left: 266px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.73px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000B2;
 }
