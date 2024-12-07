@@ -59,7 +59,6 @@ section div p{
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #000000;
-  
 }
 
 .sales{
@@ -68,8 +67,6 @@ font-size: 72px;
 font-weight: 600;
 line-height: 88px;
 text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 color: #5D56D9;
 }
 
@@ -80,8 +77,6 @@ font-size: 72px;
 font-weight: 600;
 line-height: 88px;
 text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 }
 
 .analytics{
@@ -91,16 +86,13 @@ font-size: 72px;
 font-weight: 600;
 line-height: 88px;
 text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
 }
 
 aside {
   position: absolute;
   top: 143px;
   left: 623px;
-  opacity: 1; /* Set to 1 to make it visible */
+  opacity: 1; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,6 +105,7 @@ aside img {
   left: 623px;
   gap: 0px;
   opacity: 0px;  
+  z-index: 1;
 }
 
 .background-image {
@@ -128,30 +121,25 @@ aside img {
 
 .signup {
   display: inline-block; /* Ensures the element wraps around its content */
-  padding: 7px 10px; /* Adjusted padding for consistent button spacing */
-  gap: 10px; /* Defines the space between children, if any */
-  border-radius: 4px 0px 0px 0px; /* Rounded corners */
+  padding: 1px 10px; /* Adjusted padding for consistent button spacing */
   opacity: 1; /* Ensures visibility */
   background: #988FFC; /* Background color */
   color: white; /* Text color */
   font-family: 'Poppins', sans-serif; /* Font family */
   font-size: 20px; /* Font size */
   font-weight: 500; /* Font weight */
-  line-height: 30px; /* Line height */
   text-align: center; /* Align text centrally */
-  text-decoration: none; /* Removes underline */
-  border: none; /* Removes any browser default border */
-  cursor: pointer; /* Adds a pointer cursor for interactivity */
-  box-sizing: border-box; /* Ensures padding and border are included in size */
-  width: 87px; /* Defined width */
-  height: 44px; /* Defined height */
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 87px;
+  height: 44px;
 }
 
 .smallbis {
 width: 960px;
 height: 78px;
 top: 803px;
-left: 266px;
 gap: 0px;
 opacity: 0px;
 font-family: Inter;
@@ -159,7 +147,30 @@ font-size: 32px;
 font-weight: 700;
 line-height: 38.73px;
 text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
 color: #000000B2;
+margin: 400px;
+background-color: #362f2f1a;
+}
+
+.sales, .analytics,.growth {
+  margin: 5px;
+}
+.custom-shape-divider-top-1733583127 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1733583127 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 130px;
+}
+
+.custom-shape-divider-top-1733583127 .shape-fill {
+  fill: #FFFFFF;
 }
