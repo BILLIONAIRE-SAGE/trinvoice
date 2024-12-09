@@ -86,6 +86,7 @@ font-size: 72px;
 font-weight: 600;
 line-height: 88px;
 text-align: left;
+padding: 80;
 }
 
 aside {
@@ -120,20 +121,24 @@ aside img {
 }
 
 .signup {
-  display: inline-block; /* Ensures the element wraps around its content */
-  padding: 1px 10px; /* Adjusted padding for consistent button spacing */
-  opacity: 1; /* Ensures visibility */
-  background: #988FFC; /* Background color */
-  color: white; /* Text color */
-  font-family: 'Poppins', sans-serif; /* Font family */
-  font-size: 20px; /* Font size */
-  font-weight: 500; /* Font weight */
-  text-align: center; /* Align text centrally */
-  border-radius: 5px;
-  cursor: pointer;
-  box-sizing: border-box;
-  width: 87px;
-  height: 44px;
+display: inline-block; /* Ensures the element wraps around its content */ 
+opacity: 1; /* Ensures visibility */
+background: #988FFC; /* Background color */
+color: white; /* Text color */
+font-family: 'Poppins', sans-serif; /* Font family */
+font-size: 20px; /* Font size */
+font-weight: 500; /* Font weight */
+text-align: center; /* Align text centrally */
+border-radius: 5px;
+cursor: pointer;
+box-sizing: border-box;
+width: 87px;
+height: 44px;
+padding: 7px;
+gap: 10px;
+left: 1220px;
+top: 18px;
+
 }
 
 .smallbis {
@@ -149,35 +154,39 @@ line-height: 38.73px;
 text-align: center;
 color: #000000B2;
 margin: 400px;
-background-color: #362f2f1a;
 }
 
 .sales, .analytics,.growth {
-  margin: 5px;
+margin: 5px;
 }
 
 .custom-shape-divider-bottom-1733583805 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
 }
 
 .custom-shape-divider-bottom-1733583805 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 93px;
-  clip-path: inset(0 50% 0);
+position: relative;
+display: block;
+width: calc(100% + 1.3px);
+height: 93px;
+clip-path: inset(0 50% 0);
 }
 
 .custom-shape-divider-bottom-1733583805 .shape-fill {
-  fill: #FF7CF2;
-  width: 100%;
+fill: #FF7CF2;
+width: 100%;
 }
 
+.dark-backdrop{
+background-color: #ede5e51a;
+padding: 1px;
+border-radius: 1px solid #ccc;
+}
 .column {
 width: 212.5px;
 height: 60px;
@@ -208,12 +217,12 @@ opacity: 0px;
 }
 
 .column4{
-  width: 200px;
-  height: 80px;
-  top: 935px;
-  left: 996px;
-  gap: 0px;
-  opacity: 0px;  
+width: 200px;
+height: 80px;
+top: 935px;
+left: 996px;
+gap: 0px;
+opacity: 0px;  
 }
 
 .column5{
@@ -227,12 +236,15 @@ opacity: 0px;
 }
 
 .image-container{
-  width: 100px;
-  height: auto;
-  display: inline-block;
-  margin: 10px;
-  width: 100px;
-  height: auto;
+width: 100px;
+height: auto;
+display: flex;
+margin: 10px;
+width: 100px;
+height: auto;
+gap: 10px;
+justify-content: center;
+align-items: center;
 }
 
 .next-page p{
@@ -246,11 +258,33 @@ font-family: Poppins;
 font-size: 32px;
 font-weight: 700;
 line-height: 48px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+justify-content: center;
+}
+
+.unpaid-invoices{
+  font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
+width: 526px;
+height: 32px;
+top: 1294px;
+left: 104px;
+gap: 0px;
+opacity: 0px;
 
 }
+
+
+
+
+
 
 footer img {
 width: 116px;
@@ -262,7 +296,7 @@ opacity: 0px;
 }
 
 .Quicklink{
-  width: 117px;
+width: 117px;
 height: 24px;
 top: 5127px;
 left: 322px;
@@ -277,7 +311,7 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #988FFC;
 }
-ul{
+.footer-list{
 width: 87px;
 height: 20px;
 top: 5171px;
@@ -292,4 +326,5 @@ text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: #000000B2;
+list-style: none; /* Remove bullet points */ 
 }
