@@ -155,22 +155,141 @@ background-color: #362f2f1a;
 .sales, .analytics,.growth {
   margin: 5px;
 }
-.custom-shape-divider-top-1733583127 {
+
+.custom-shape-divider-bottom-1733583805 {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
 }
 
-.custom-shape-divider-top-1733583127 svg {
+.custom-shape-divider-bottom-1733583805 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 130px;
+  height: 93px;
+  clip-path: inset(0 50% 0);
 }
 
-.custom-shape-divider-top-1733583127 .shape-fill {
-  fill: #FFFFFF;
+.custom-shape-divider-bottom-1733583805 .shape-fill {
+  fill: #FF7CF2;
+  width: 100%;
+}
+
+.column {
+width: 212.5px;
+height: 60px;
+top: 944px;
+left: 56px;
+gap: 0px;
+opacity: 0px;
+}
+
+.column2 {
+width: 137.33px;
+height: 120px;
+top: 919px;
+left: 343px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: space-around;
+}
+
+.column3{
+width: 365.85px;
+height: 75px;
+top: 942px;
+left: 555px;
+gap: 0px;
+opacity: 0px;
+}
+
+.column4{
+  width: 200px;
+  height: 80px;
+  top: 935px;
+  left: 996px;
+  gap: 0px;
+  opacity: 0px;  
+}
+
+.column5{
+width: 113px;
+height: 80px;
+top: 939px;
+left: 1271px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.image-container{
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  margin: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.next-page p{
+width: 650px;
+height: 48px;
+top: 1215px;
+left: 395px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+footer img {
+width: 116px;
+height: 134px;
+top: 5127px;
+left: 56px;
+gap: 0px;
+opacity: 0px;
+}
+
+.Quicklink{
+  width: 117px;
+height: 24px;
+top: 5127px;
+left: 322px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #988FFC;
+}
+ul{
+width: 87px;
+height: 20px;
+top: 5171px;
+left: 322px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000B2;
 }
