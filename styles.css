@@ -287,11 +287,22 @@ font-weight: 700;
 line-height: 38.73px;
 text-align: center;
 color: #000000B2; 
+background-color: white;
 }
 
+.dark-backdrop1{
+  background-color: #ede5e51a;
+  width: 100%; /* Full-width container */
+  padding: 20px; /* Add some inner spacing */
+  margin-top: 50px; /* Push it below the overlapping section */
+  box-sizing: border-box; 
+}
 
-
-
+.dark-backdrop1 h2{
+  text-align: center;
+font-weight: 700;
+font-size: 32px ;
+}
 
 
 
