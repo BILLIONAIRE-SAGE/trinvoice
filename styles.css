@@ -314,13 +314,27 @@ margin-top: 5px;
 }
 
 .hiw{
-  height: auto;
   text-align: center;
   padding: 20px;
 }
+
+.custom-diamond{
+  position: absolute;
+  top: 0;
+  left: 10px;
+  z-index: 1;
+}
+
+.custom-diamond img{
+  width: 50px;
+  height: auto;
+}
+
 .hiw h2{
-  margin-bottom: 50px;
   font-size: 25px;
+  margin-top: 50px;
+  z-index: 2;
+  position: relative;
 }
 
 .busi-image{
@@ -474,6 +488,7 @@ margin-top: 5px;
 .footerlinks li{
   margin-bottom: 10px;
   font-size: 15px;
+  color: #000000B2;
 }
 .footer-icons{
   display: flex;
