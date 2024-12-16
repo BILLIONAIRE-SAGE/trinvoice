@@ -318,17 +318,6 @@ margin-top: 5px;
   padding: 20px;
 }
 
-.custom-diamond{
-  position: absolute;
-  top: 0;
-  left: 10px;
-  z-index: 1;
-}
-
-.custom-diamond img{
-  width: 50px;
-  height: auto;
-}
 
 .hiw h2{
   font-size: 25px;
