@@ -416,19 +416,45 @@ margin-top: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lorem p{
+  margin: 0;
+  font-size: 16px;
 }
 
 .frequent{
   height: 440px;
+  width: 80%;
+  margin: 20px auto;
 }
 
 .frequent h2{
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .drop-icon{
   display: flex;
   flex-direction: row-reverse;
+}
+
+.drop-icon img{
+  width: 20px;
+  transition: transform 0.3s ease;
+}
+
+.hidden-text {
+  display: none;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: solid 1px #e1e1e1;
+}
+
+.rotate {
+  transform: rotate(180deg);
 }
 
 .space-between{
