@@ -414,7 +414,7 @@ margin-top: 5px;
 .lorem{
   border-top: solid #0000001A;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   padding: 10px;
   cursor: pointer;
@@ -427,7 +427,6 @@ margin-top: 5px;
 
 .frequent{
   height: 440px;
-  width: 80%;
   margin: 20px auto;
 }
 
@@ -455,12 +454,6 @@ margin-top: 5px;
 
 .rotate {
   transform: rotate(180deg);
-}
-
-.space-between{
-  background-color: #d1cbcb1a;
-  max-width: 50px;
-  max-height: 40px;
 }
 
 .footer{
