@@ -1,0 +1,63 @@
+/* For screens smaller than 1350px */
+@media only screen and (max-width: 1350px) {
+    .navbar {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+  
+    .hero-banner {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .hero-text {
+      width: 80%;
+      text-align: center;
+    }
+  
+    .hero-text h1 {
+      font-size: 72px; 
+      line-height: 80px;
+    }
+  
+    .hero-text p {
+      font-size: 28px;
+    }
+  
+    .image-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .checker-box {
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+    }
+  
+    .checkbox-img img {
+      width: 90%; /* Adjust image size */
+      margin: 0 auto;
+    }
+  
+    .smt-grid {
+      grid-template-columns: repeat(2, 1fr); /* Adjust grid to two columns */
+      gap: 30px;
+    }
+  
+    .footer-container {
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .footerlinks {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

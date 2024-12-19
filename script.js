@@ -7,7 +7,7 @@ faqItems.forEach(item => {
     const icon = item.querySelector('img'); // Target the dropdown icon
 
     // Toggle the visibility of the answer text
-    hiddenText.style.display = hiddenText.style.display === 'block' ? 'none' : 'block';
+    hiddenText.style.display = hiddenText.style.display === 'flex' ? 'none' : 'flex';
 
     // Add rotation animation to the icon
     icon.classList.toggle('rotate');
