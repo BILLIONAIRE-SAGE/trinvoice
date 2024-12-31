@@ -1,5 +1,10 @@
 /* For screens smaller than 1350px */
 @media only screen and (max-width: 1350px) {
+    .body{
+      position: fixed;
+      justify-content: center;
+    }
+   
     .navbar {
       flex-wrap: wrap;
       justify-content: space-between;
@@ -32,6 +37,13 @@
     .custom-shape-divider-bottom-1733583805{
       display: none;
     }
+    .signup-parent{
+      display: grid;
+      justify-content: center;
+    }
+    .smt{
+      display: flow-root;
+    }
   
     .image-container {
       flex-wrap: wrap;
@@ -53,6 +65,9 @@
     .smt-grid {
       grid-template-columns: repeat(2, 1fr); /* Adjust grid to two columns */
       gap: 30px;
+    }
+    .subscribe{
+    
     }
   
     .footer-container {
