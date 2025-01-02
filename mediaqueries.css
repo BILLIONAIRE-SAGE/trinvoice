@@ -9,6 +9,7 @@
       flex-wrap: wrap;
       justify-content: space-between;
       padding: 0 20px;
+      background: linear-gradient(90deg, #453fb3, #9691F2);
     }
   
     .hero-banner {
@@ -16,6 +17,7 @@
       align-items: center;
       gap: 20px;
       padding: 20px;
+      background: linear-gradient(90deg, #5D56D9, #9691F2);
     }
   
     .hero-text {
@@ -29,6 +31,7 @@
   
     .hero-text p {
       font-size: 28px;
+      color: whitesmoke;
     }
 
     .trin-img{
@@ -46,15 +49,13 @@
     }
   
     .image-container {
-      flex-wrap: wrap;
       justify-content: center;
       gap: 15px;
+      display: grid;
     }
   
     .checker-box {
-      flex-direction: column;
-      gap: 15px;
-      text-align: center;
+      text-align: justify;
     }
   
     .checkbox-img img {
@@ -66,8 +67,11 @@
       grid-template-columns: repeat(2, 1fr); /* Adjust grid to two columns */
       gap: 30px;
     }
-    .subscribe{
-    
+    .next-page h2 {
+      margin-top: 40px;
+    }
+    .checkerbox-text p {
+      margin-top: 15px;
     }
   
     .footer-container {
